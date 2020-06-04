@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+      <meta charset="utf-8" />
+      <link rel="stylesheet" href="" />
+      <link rel="stylesheet" type="text/css" href="../_css/estilo.css" />
+      <link rel="stylesheet" href="../_css/media.css" />
+      <title>Google Glass</title>
+   </head>
+   <script language="javascript" ; src="../_javascript/fuction.js" ;></script>
+   <body>
+      <div id="interface">
+         <header class="cabecalho">
+            <hgroup>
+               <h1>Google Glass</h1>
+               <h2>A revolução do Google está chegando</h2>
+            </hgroup>
+            <figure>
+               <img
+                  id="icone"
+                  src="../_imagens/multimidia.png"
+                  alt="Google Glass"
+               />
+            </figure>
+            <nav class="menu">
+               <h1>Menu Principal</h1>
+               <ul type="disc">
+                  <li
+                     onmousemove="mudarFoto('../_imagens/home.png')"
+                     onmouseout="mudarFoto('../_imagens/multimidia.png')"
+                  >
+                     <a href="index.html">home</a>
+                  </li>
+                  <li
+                     onmousemove="mudarFoto('../_imagens/especificacoes.png')"
+                     onmouseout="mudarFoto('../_imagens/multimidia.png')"
+                  >
+                     <a href="specs.html">especificações</a>
+                  </li>
+                  <li
+                     onmousemove="mudarFoto('../_imagens/fotos.png')"
+                     onmouseout="mudarFoto('../_imagens/multimidia.png')"
+                  >
+                     <a href="fotos.html">fotos</a>
+                  </li>
+                  <li
+                     onmousemove="mudarFoto('../_imagens/multimidia.png')"
+                     onmouseout="mudarFoto('../_imagens/multimidia.png')"
+                  >
+                     <a href="multimidia.html">multimidia</a>
+                  </li>
+                  <li
+                     onmousemove="mudarFoto('../_imagens/contato.png')"
+                     onmouseout="mudarFoto('../_imagens/multimidia.png')"
+                  >
+                     <a href="fale-conosco.html">fale conosco</a>
+                  </li>
+               </ul>
+            </nav>
+         </header>
+         <header id="cabecalho-artigo">
+            <hgroup>
+               <h3>Glass > Multimídias</h3>
+
+               <h1>Sons e Vídeos</h1>
+
+               <h2>por Gustavo Guanabara</h2>
+
+               <h3 class="direita">Atualizado em 01/Maio/2013</h3>
+            </hgroup>
+         </header>
+         <div id="tv-radio">
+            <audio id="musica" controls="controls">
+               <source
+                  src="../_media/2009-lovers-carvings-bibio.oggvorbis.ogg"
+                  type="audio/mpeg"
+               />
+               desculpa, rodo no seu navegador.
+            </audio>
+            <video
+               id="filme "
+               controls="controls"
+               poster="../_imagens/video-mini03.jpg"
+            >
+               <source src="../_media/getting-started.mp4" type="video/mp4" />
+               desculpa, rodo no seu navegador.
+            </video>
+         </div>
+         <footer class="rodape">
+            <p>
+               Copyright 2013 - by Gustavo Guanabara <br />
+               Facebook | Twitter
+            </p>
+         </footer>
+      </div>
+   </body>
+</html>
