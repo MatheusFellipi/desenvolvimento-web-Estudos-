@@ -6,3 +6,5 @@ npm install express //servido
 npm install nodemon
 
 npm install nunjucks
+
+npm install sqlite3

@@ -7,24 +7,15 @@
       align-items: center;
       text-align: center;
    }
-   /*o que ficou bom para mim*/
-   #page-home header a {
-      position: absolute;
-      bottom: 0.5px;
-      left: 25%;
-      transform: translate(-25%);
-      text-align: center;
-  }
 
-   /* codigo da aula NLW
    #page-home header a {
       position: absolute;
-      bottom: px;
+      bottom: 48px;
 
       left: 50%;
       transform: translate(-50%);
    }
-   */
+
    #page-home main {
       align-items: center;
    }
