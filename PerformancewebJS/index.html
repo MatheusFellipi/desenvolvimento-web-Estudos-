@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="https://s3.amazonaws.com/kp-blog/wp-content/uploads/2019/11/13095210/como-fazer-gif-a-partir-de-videos-exemplo-2.gif" alt="">
+    <button id="btn-js">Click me</button>
+    <h2 id="hello"></h2>
+
+    <script>
+        const $button = document.getElementById('btn-js');
+        const $hello = document.getElementById('hello');
+
+        $button.addEventListener("click" , e => {
+        e.preventDefault();
+        $hello.innerHTML += 'fui clicado <br/>'
+        })
+
+    //setTimeout(function(){
+   // let content ='';
+    //for(let i = 0;i<1000;i++){
+    //    content += 'fui clicado';
+   // }
+   // $hello.innerHTML = content;
+  //  },100)
+
+    requestAnimationFrame(function(){
+    let content ='';
+    for(let i = 0;i<1000;i++){
+        content += 'fui clicado';
+    }
+    $hello.innerHTML = content;})
+    </script>
+</body>
+</html>
