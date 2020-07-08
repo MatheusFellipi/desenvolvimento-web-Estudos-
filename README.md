@@ -29,9 +29,8 @@ NLW_next level week
 
 Pagina criada através do curso em video.
 
-<<<<<<< HEAD
 GoogleClass (Gustavo Guanabara)
-=======
+
 
 
 GoogleClass (Gustavo Guanabara)
