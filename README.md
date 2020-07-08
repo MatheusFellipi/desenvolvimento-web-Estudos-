@@ -16,6 +16,7 @@ javaScript
 
 PerformancewebJS 
 
+introduçao reactjs
 
 
 NLW(next level week) curso realizado pelos Rocketseat, pagina que mostra os pontos de coletas registrado no site Ecoleta.
@@ -28,4 +29,10 @@ NLW_next level week
 
 Pagina criada através do curso em video.
 
+<<<<<<< HEAD
 GoogleClass (Gustavo Guanabara)
+=======
+
+
+GoogleClass (Gustavo Guanabara)
+>>>>>>> eb4160a29ec4f41cc77b73d938a69875f07ae83b
