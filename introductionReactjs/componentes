@@ -1,0 +1,13 @@
+npm init
+
+npm install --save-dev webpack webpack-cli
+
+npm install -save-dev html-webpack-plugin
+
+npm i @babel/core babel-loader @babel/preset-env @babel/preset-react --save-dev
+
+npm i -D react react-dom
+
+npm i -D webpack-dev-server
+
+npm install --save-dev html-loader
