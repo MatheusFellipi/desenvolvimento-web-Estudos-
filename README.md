@@ -2,9 +2,9 @@
 
 Meus estudos da area de desenvolvimento web
 
+ATENÇAO:nenhum dos códigos são  de propriedade minha mas são de estudos realizado por mim para entender a linguagens
 
-
-todos os estudos que se encontra nas pastas abaixo, os códigos foi realizado mas aula do digital innovation one (DIO) Propriedades deles.
+todos os estudos que se encontra nas pastas abaixo, os códigos foi realizado mas aula do digital innovation one (DIO).
 
 
 
@@ -18,7 +18,7 @@ PerformancewebJS
 
 
 
-NLW(next level week) curso realizado pelos Rocketseat, pagina que mostra os pontos de coletas registrado no site Ecoleta criado por eles.
+NLW(next level week) curso realizado pelos Rocketseat, pagina que mostra os pontos de coletas registrado no site Ecoleta.
 
 
 
@@ -27,7 +27,5 @@ NLW_next level week
 
 
 Pagina criada através do curso em video.
-
-
 
 GoogleClass (Gustavo Guanabara)
